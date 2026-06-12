@@ -17,10 +17,10 @@ This repository serves as an audit pipeline to isolate the point of diminishing 
 This empirical benchmarking study successfully maps out the operational trade-offs involved in deploying machine learning algorithms for real-time sustainable infrastructure optimization.
 By measuring both statistical accuracy ($R^2$) and single-stream edge inference latency, this project highlights the real-world engineering constraints of building green computing frameworks.
 Our empirical log yields two primary structural insights:
-The Cost of Complexity: High-capacity ensemble models (such as Random Forests) deliver outstanding predictive precision ($R^2$), minimizing energy over-allocation by accurately forecasting facility power spikes. 
-                        However, this precision comes at the expense of computational overhead, resulting in a significantly higher latency footprint during stream processing.
-The Micro-Grid Efficiency Frontier: For smart building infrastructures requiring instantaneous, microsecond-level grid adjustments to HVAC setups, lower-complexity models (like single Decision Trees) provide the optimal balance.
-                                    They maintain reliable predictive metrics while processing incoming environmental sensor packets fast enough to prevent hardware lag.
+* **The Cost of Complexity:** High-capacity ensemble models (such as Random Forests) deliver outstanding predictive precision ($R^2$), minimizing energy over-allocation by accurately forecasting facility power spikes. 
+ However, this precision comes at the expense of computational overhead, resulting in a significantly higher latency footprint during stream processing.
+* **The Micro-Grid Efficiency Frontier:** For smart building infrastructures requiring instantaneous, microsecond-level grid adjustments to HVAC setups, lower-complexity models (like single Decision Trees) provide the optimal balance.
+ They maintain reliable predictive metrics while processing incoming environmental sensor packets fast enough to prevent hardware lag.
 
 
 Ultimately, this project demonstrates that designing sustainable, AI-driven infrastructure is not simply about maximizing validation accuracy scores. True energy efficiency requires a holistic, hardware-aware approach where algorithms are mathematically optimized to fit the precise latency limits and power budgets of localized edge devices.
